@@ -1,0 +1,11 @@
+.navbar-nav{
+    display: flex ;
+    border: 1px solid;
+}
+ul li Link{
+    display: inline;
+}
+.bg-success{
+    padding-left:60px ;
+}
+
