@@ -2,10 +2,11 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import NotFound from './NotFound'
 import About from './About'
+import Contact from './Contact'
 
 export default function UrlPage() {
 const {UrlPage} = useParams()
-if(UrlPage == "Pawan"){
+if(UrlPage == "pawan"){
     return(
        <div className='container'>
       <h1> Hello {UrlPage}</h1>

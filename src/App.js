@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes,  link, Link, Route } from 'react-route
 
 
 import Home from './components/Home';
-import Contect from './components/Contect';
+import Contact from './components/Contact';
 import Blog from './components/Blog';
 import About from './components/About';
 import Project from './components/Project';
@@ -34,7 +34,7 @@ function App() {
                   <Link to={'/Project'} className="nav-link text-white" href="#">Project</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={'/Contect'} className="nav-link text-white" href="#">Contect Us</Link>
+                  <Link to={'/Contact'} className="nav-link text-white" href="#">Contact Us</Link>
                 </li>
 
 
@@ -50,7 +50,7 @@ function App() {
           <Route path='/About' element={<About />}></Route>
           <Route path='/Blog' element={<Blog />}></Route>
           <Route path='/Project' element={<Project />}></Route>
-          <Route path='/Contect' element={<Contect />}></Route>
+          <Route path='/Contact' element={<Contact/>}></Route>
           <Route path='#' element={<NotFound />}></Route>
           <Route path='/:UrlPage' element={<UrlPage />}></Route>
           
